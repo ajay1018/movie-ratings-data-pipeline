@@ -1,2 +1,7 @@
-movie_id,title,rating
-1,Inception,8.8
+movie_id,title,year,genre,rating,votes
+1,Inception,2010,Sci-Fi,8.8,2400000
+2,The Dark Knight,2008,Action,9.0,2800000
+3,Interstellar,2014,Sci-Fi,8.6,2000000
+4,Whiplash,2014,Drama,8.5,900000
+5,Parasite,2019,Thriller,8.5,900000
+6,Inside Out,2015,Animation,8.1,800000
