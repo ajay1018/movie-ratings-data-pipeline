@@ -149,7 +149,7 @@ sequenceDiagram
 
 Below is a sample visualization from the included demo data.
 
-![dashboard](dashboards/movie_ratings_dashboard.png)
+![dashboard](dashboards/movie_ratings_dashboard_1759873997.png)
 
 **Sample KPIs**
 - Movies: **1**
