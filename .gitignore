@@ -1,3 +1,6 @@
+.env
 *.pyc
 __pycache__/
-.env
+.ipynb_checkpoints/
+data/raw/*.json
+data/raw/*.parquet
