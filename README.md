@@ -117,3 +117,12 @@ Sample KPIs:
 This project is licensed under the MIT License – see the LICENSE file for details.
 
 ---
+
+## 🧱 Architecture (Mermaid)
+
+```mermaid
+flowchart TD
+    A[Public APIs / CSV Dumps] --> B[Extract (Python)]
+    B --> C[Transform (pandas)]
+    C --> D[(PostgreSQL)]
+    D --> E[Streamlit Dashboard]
