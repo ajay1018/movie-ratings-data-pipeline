@@ -72,7 +72,6 @@ movie-ratings-data-pipeline/
 
 ## 🚀 How to Run (Placeholder)
 
-```bash
 # clone
 git clone https://github.com/ajay1018/movie-ratings-data-pipeline.git
 cd movie-ratings-data-pipeline
