@@ -1,5 +1,6 @@
 # 🎬 Movie Ratings Data Pipeline
 
+![CI](https://github.com/ajay1018/movie-ratings-data-pipeline/actions/workflows/ci.yml/badge.svg)
 An end-to-end **data engineering project** that builds a complete ETL pipeline for movie analytics.  
 The pipeline extracts raw movie rating data from public APIs (IMDb / TMDB), transforms and cleans it using Python,  
 loads it into a **PostgreSQL** database, and finally visualizes aggregated insights through a **Streamlit dashboard**.
