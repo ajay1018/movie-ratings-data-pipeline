@@ -144,3 +144,14 @@ sequenceDiagram
     Tr->>DB: Load tables (movies, genres, ratings)
     DB-->>Viz: Aggregates/queries
 ```
+
+## 📊 Results (Sample)
+
+Below is a sample visualization from the included demo data.
+
+![dashboard](dashboards/movie_ratings_dashboard.png)
+
+**Sample KPIs**
+- Movies: **1**
+- Avg Rating: **8.80**
+- Total Votes: **0**
