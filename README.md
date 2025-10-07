@@ -127,3 +127,20 @@ flowchart TD
     C --> D[("PostgreSQL")];
     D --> E["Streamlit Dashboard"];
 ```
+
+## 🔁 Data Pipeline Flow (Mermaid)
+
+```mermaid
+sequenceDiagram
+    participant Src as Source (API/CSV)
+    participant Ext as Extract
+    participant Tr as Transform
+    participant DB as PostgreSQL
+    participant Viz as Dashboard
+
+    Src->>Ext: Fetch/Read data
+    Ext->>Tr: Write raw CSV/JSON
+    Tr->>Tr: Clean, type-cast, deduplicate
+    Tr->>DB: Load tables (movies, genres, ratings)
+    DB-->>Viz: Aggregates/queries
+```
