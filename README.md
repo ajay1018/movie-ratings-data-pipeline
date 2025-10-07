@@ -72,23 +72,23 @@ movie-ratings-data-pipeline/
 
 ## 🚀 How to Run (Placeholder)
 
-# clone
+### clone
 git clone https://github.com/ajay1018/movie-ratings-data-pipeline.git
 cd movie-ratings-data-pipeline
 
-# create virtual env
+### create virtual env
 python -m venv venv
 source venv/bin/activate   # Windows: venv\Scripts\activate
 
-# install dependencies
+### install dependencies
 pip install -r requirements.txt
 
-# run ETL
+### run ETL
 python src/extract/imdb_scraper.py
 python src/transform/clean_ratings.py
 python src/load/load_to_postgres.py
 
-# launch dashboard
+### launch dashboard
 streamlit run dashboards/movie_dashboard.py
 
 
