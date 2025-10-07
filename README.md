@@ -70,27 +70,28 @@ movie-ratings-data-pipeline/
 
 ---
 
-## 🚀 How to Run (Placeholder)
+## 🚀 How to Run
 
 ### clone
-git clone https://github.com/ajay1018/movie-ratings-data-pipeline.git
-cd movie-ratings-data-pipeline
+- git clone https://github.com/ajay1018/movie-ratings-data-pipeline.git
+- cd movie-ratings-data-pipeline
 
 ### create virtual env
-python -m venv venv
-source venv/bin/activate   # Windows: venv\Scripts\activate
+- python -m venv venv
+- source venv/bin/activate   # Windows: venv\Scripts\activate
 
 ### install dependencies
-pip install -r requirements.txt
+- pip install -r requirements.txt
 
 ### run ETL
-python src/extract/imdb_scraper.py
-python src/transform/clean_ratings.py
-python src/load/load_to_postgres.py
+- python src/extract/imdb_scraper.py
+- python src/transform/clean_ratings.py
+- python src/load/load_to_postgres.py
 
 ### launch dashboard
-streamlit run dashboards/movie_dashboard.py
+- streamlit run dashboards/movie_dashboard.py
 
+---
 
 📊 Results & Dashboard
 
@@ -100,14 +101,16 @@ Sample KPIs:
 🎯 Average rating per decade
 📈 Trend of ratings over time
 
+---
 
 🔮 Future Improvements
 
-Integrate API scheduling with Airflow DAGs
-Add data quality validation using Great Expectations
-Push final dataset to BigQuery for scalability
-Deploy dashboard to Render / Streamlit Cloud
+- Integrate API scheduling with Airflow DAGs
+- Add data quality validation using Great Expectations
+- Push final dataset to BigQuery for scalability
+- Deploy dashboard to Render / Streamlit Cloud
 
+---
 
 🧾 License
 
